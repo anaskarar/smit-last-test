@@ -1,0 +1,140 @@
+ .nav-item {
+    padding: 0 10px;
+    color: #e5e7eb;
+    font-size: 1rem;
+}
+.navbar {
+background-color: white !important ;
+}
+.btnone {
+border: none;
+background-color:blue;
+color: WHITE;
+padding: 12px 40px;
+border-radius: 6px;
+
+}
+.btntwo {
+   
+        border: 1px solid blue;
+        background-color:yellowgreen;
+        color: WHITE;
+        padding: 12px 40px;
+        border-radius: 6px;
+        
+}
+h1 {
+    margin-left: 2% !important;
+    font-weight: 250 !important;
+    font-family: sans-serif !important;
+}
+.ngo {
+    margin-left: 2% !important;
+    font-size: 1.2rem;
+}
+.lead {
+    margin-left: 2% !important;
+    color: black !important;
+    font-size: 1.1rem !important;
+    font-weight: 200 !important;
+
+}
+.btn {
+    margin-left: 2% !important;
+    border: 1px solid  black !important;
+    border-radius: none !important;
+    padding: 14px 50px !important;
+}
+.butn {
+    border: none;
+    background-color: white;
+    color: black;
+}
+.section {
+    background-color: rgb(222, 243, 181);
+    padding: 50px 25px !important;
+    margin: 0 10px;
+border-radius: 10px;
+}
+.section-btn {
+    padding: 0 20px !important;
+
+}
+.butn {
+    padding: 10px 20px !important;
+    margin: 0 25px !important;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.butn:hover {
+    background-color: #555;
+    color: white;
+}
+.butngrey {
+    background-color: #555;
+    color: white;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px 20px !important;
+}
+.butngreen {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px 20px !important;
+}
+.sadah {
+   
+    margin: 20px 10px;
+} 
+@media (max-width: 768px) {
+    .nav-item {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .btnone, .btntwo {
+        width: 100%;
+        padding: 12px 20px;
+        text-align: center;
+    }
+    
+    .section {
+        padding: 30px 15px !important;
+        margin: 0 5px;
+    }
+
+    .butn, .butngrey, .butngreen {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+
+    .lead, .ngo {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
